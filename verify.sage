@@ -34,7 +34,7 @@ signatures = load(sign_filename)
 
 signatures = load(sign_filename)
 
-if verify(sig,pk,n,k,l,w,sigma_1,sigma_2,tau,xi,GF(2)):
+if verify(signatures,pk,n,k,l,w,sigma_1,sigma_2,tau,xi,GF(2)):
     print ('verification succeeds for message "%s"' %(msg))
 else:
     print ('verification fails for message "%s"' %(msg))
