@@ -1,4 +1,5 @@
 # CodeBasedGroupSig
+在 Windows 系统上使用 SageMath 9.3 版本进行了测试
 
 密钥生成/成员加入过程/签名过程/验证过程/打开签名过程 分别见于 keygen.sage/ Join.sage / sign.sage / verify.sage / Open.sage
 
